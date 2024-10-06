@@ -5,7 +5,7 @@ const cors = require('cors');
 const studentRoutes = require('./routes/studentRoute');
 
 const app = express();
-const PORT = https://student-management-system-xi-orcin.vercel.app;
+const PORT = "https://student-management-system-xi-orcin.vercel.app";
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://pranavdeshmukh5454:yXoKh8dZ8X11gtLO@cluster0.tch8b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';  // Add MongoDB URI
 
 // Middleware
